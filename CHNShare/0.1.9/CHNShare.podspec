@@ -33,7 +33,7 @@ s.source_files = 'CHNShare/Classes/**/*'
 s.public_header_files = "CHNShare/Classes/**/*.h"
 s.frameworks = 'UIKit'
 s.dependency 'WechatOpenSDK', '~> 1.8.1'
-#s.dependency 'Weibo_SDK' , :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
+s.dependency 'Weibo_SDK' #, :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
 
 
 
