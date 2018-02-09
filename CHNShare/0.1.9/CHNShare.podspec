@@ -33,15 +33,14 @@ s.source_files = 'CHNShare/Classes/**/*'
 s.public_header_files = "CHNShare/Classes/**/*.h"
 s.frameworks = 'UIKit'
 s.dependency 'WechatOpenSDK', '~> 1.8.1'
-s.dependency 'Weibo_SDK' #, :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
+#s.dependency 'Weibo_SDK' , :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
 
-s.dependency 'AFNetworking'
 
+
+#s.dependency 'AFNetworking'
 #s.vendored_frameworks  = 'WechatOpenSDK/OpenSDK1.8.1/TXLiteAVSDK_Smart.framework'
-
 #s.ios.vendored_frameworks = "WechatOpenSDK/**/*.framework"
 #s.ios.vendored_libraries = "WechatOpenSDK/**/*.a"
-
 #s.dependency 'BSKNetworking/Category'
 #s.resource_bundles = {
 #'BSKH5Component' => ['BSKShareControl/Assets/*.{png,js}']
